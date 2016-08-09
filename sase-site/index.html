@@ -1,0 +1,292 @@
+<!doctype HTML>
+
+
+<html>
+ 
+<head>
+<meta name="viewport" content="width=device-width" />
+
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700italic,600italic,700,400italic,600,300italic' rel='stylesheet' type='text/css'>
+
+<style>
+
+* {
+  box-sizing: border-box;
+
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+div {
+	display:block;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	display: block;
+		 background-color:rgba(0, 0, 0, 0.05);
+}
+
+.title {
+	opacity: 0.7;
+	font-size: 0.9rem;  
+}
+
+#home {
+	height: 100%; 
+}
+
+#board-members {
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.board-member {
+	position: relative;
+	float: left;
+	padding-right: 10%;
+	padding-top: 10%;  
+
+}
+section {
+	padding-top: 5%;
+}
+
+
+.inner {
+	/*padding-left, padding-right, padding-bottom: 3rem;*/
+}
+
+
+#title-bar {
+	width: 30%; /*because the main has a left-margin of 30%*/
+	position: fixed; /*this attribute takes the element out of the order sigh*/
+	top: 0;
+	text-align: center;
+	padding-top: 5%;
+}
+
+#nav-bar {
+	text-align: center;
+	word-wrap: break-word;
+	padding: 20%;
+}
+
+#nav-item {
+	display:block;
+	padding: 3%;
+}
+
+a {
+	text-decoration: none; 
+}
+
+.footer {
+	font-style: italic;
+	font-size: 0.8em;
+}
+
+
+
+main {
+
+	margin-left: 30%;
+	padding-left: 5%;
+}
+
+
+
+@media (max-width: 800px), only screen {
+   #title-bar { 
+   	position: fixed;
+    float: none;
+    margin:0;
+    width:100%; 
+    height: 20%; 
+    font-size: 0.85rem;
+    background: rgba(255, 255, 255, 1);
+    opacity: 0.95; 
+    text-overflow: clip;
+  }
+
+  main {
+  	margin-left: 15%;
+  }
+
+  .captions {
+  	display: none;
+  }
+
+  #nav-bar {
+  	font-size: 0.9rem;
+  	display: inline-flex;
+  	justify-content: space-around;
+  	flex-wrap: wrap;
+  	width: 100%;
+  	margin: 0;
+  	padding:0;
+  }
+
+  #nav-item {
+  	float: left;
+  	}
+
+  .footer {
+  	display: none;
+  }
+
+  main {
+  	margin-top: 40%;
+  }
+}
+
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+
+<div class="section" id="title-bar"> 
+
+	<div class="inner">
+
+
+		<div id="logo">
+			<div class="captions"> The Society of Asian Scientists and Engineers</div>
+			<h1><a href="#home"> SASE </a></h1>
+			<div class="captions"> @the University of Pennsylvania </div>
+		</div>
+
+		<div id="nav-bar">
+			<a href="#why" id="nav-item"> Why We're Here</a>
+			<a href="#what" id="nav-item"> What We Do </a>
+			<a href="#board" id="nav-item"> Meet Our Board </a>
+			</div>
+		</div> <!-- nav-bar-->
+
+		
+
+
+
+
+		<div class="footer">
+
+		<br><br><br>
+		<p> fb | insta | email </p>
+			Nancy was here.
+		</div>
+
+
+
+
+	</div> <!--inner-->
+</div> <!--title-bar-->
+
+<main>
+
+<div class="section" id="content">
+
+
+<section id="home">
+
+
+
+</section>
+
+<section id="why">
+<h1> Why We're Here</h1>
+<h4> Mission Statement </h4>
+<h4> Three Pillars</h4>
+<p> Professional Development / Passion </p>
+<p> Cultural Awareness / Context </p>
+<p> Service / Impact </p>
+<p> == find your identity at Penn </p>
+
+
+</section>
+
+
+<section id="what">
+<h1> What We Do </h1>
+<h4> Upcoming Events <h4>
+<h4> All Our Programs </h4>
+<p> Mentorship </p>
+<p> Volunteering </p>
+<h2> Professor Lunches </h2>
+<p> 
+
+<h4> Connect With National</h4>
+<p> Relationship with Drexel</p>
+
+
+</section>
+
+
+<section id="board">
+
+<h1> Meet Our Board </h1>
+
+<div id="board-members">
+<div class="board-member"> 
+<h4> Shawn Wang</h4>
+<p class="title"> President </p>
+</div>
+
+<div class="board-member"> 
+<h4> Connie Chen </h4>
+<p class="title"> Vice President </p>
+</div>
+
+<div class="board-member"> 
+<h4> Varun Jain </h4>
+<p class="title"> Treasurer </p>
+</div>
+
+<div class="board-member"> 
+<h4> Joyce Wang </h4>
+<p class="title"> Secretary </p>
+
+</div>
+<div class="board-member"> 
+<h4> Sabino Padilla </h4>
+<p class="title"> Marketing </p>
+
+</div>
+<div class="board-member"> 
+<h4> Grace Huang </h4>
+<p class="title"> Treasurer </p>
+
+</div>
+
+
+<div class="board-member"> 
+<h4> Chelsea Lin </h4>
+<p class="title"> Treasurer </p>
+</div> 
+
+</div><!--board-members-->
+</section> <!--meet our board -->
+
+
+</div> 
+
+
+
+
+</main>
+
+</body>
+
+
+
+</html>
